@@ -13,5 +13,9 @@ public class Simple2Test {
 	public void test2() {
 		System.out.println(this.getClass().getName());
 	}
-
+	
+	@Test
+	public void test3() {
+		System.out.println(this.getClass().getName());
+	}
 }
